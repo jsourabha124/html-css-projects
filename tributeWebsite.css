@@ -1,0 +1,94 @@
+/* Webpage add some small margin as default: below style remove extra margin*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #e5e5fd;
+    border: 10px solid blue;
+    margin: 0 400px;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top-section h1{
+   font-size: 50px;
+   font-weight: bold;
+   color: #1d1e4c; 
+   text-transform: uppercase;
+}
+.top-section h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #1d1e4c; 
+    text-transform: uppercase;
+    text-align: end;
+ }
+
+.image-container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container, img {
+    width: 300px;
+    height: 320px;
+}
+
+.abou-section, .biography-section {
+    margin: 50px 0px 50px 50px;
+    max-width: 900px;
+}
+
+.abou-section h2{
+    font-size: 70px;
+    font-weight: 400;
+    bottom: 50px;
+}
+
+.abou-section p { 
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    font-family: 10px;
+    text-align: justify;
+}
+
+.biography-section h3{
+    font-size: 70px;
+    font-weight: 400;
+    bottom: 30px;
+}
+
+.biography-section ul {
+    margin-left: 50px;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    font-family: 10px;
+    text-align: justify;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer p{
+    font-size:25px;
+    text-align: end;
+}
+
+footer a{
+    text-decoration: none;
+}
